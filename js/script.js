@@ -32,6 +32,7 @@ $(function () {
     var swiper = new Swiper(".gnb_area.mobile", {
         slidesPerView: 5,
         spaceBetween: 20,
-        freeMode: true,
+        freeMode: false,
+        cssMode: false
     });
 })
